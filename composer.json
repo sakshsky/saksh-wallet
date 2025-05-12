@@ -1,0 +1,34 @@
+{
+    "name": "sakshsky/saksh-wallet",
+    "description": "A simple wallet system for Laravel applications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your.email@example.com"
+        }
+    ],
+    "keywords": ["laravel", "wallet", "transactions", "balance", "payment"],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Saksh\\Wallet\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Saksh\\Wallet\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Saksh\\Wallet\\SakshWalletServiceProvider"
+            ]
+        }
+    }
+}
