@@ -72,4 +72,4 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for det
 Find the source code at [https://github.com/sakshsky/saksh-wallet](https://github.com/sakshsky/saksh-wallet).
 
 ## License
-This package is open-sourced software licensed under the [MIT license](LICENSE).# Update for v1.0.0 release - May 14, 2025
+This package is open-sourced software licensed under the [MIT license](LICENSE).
